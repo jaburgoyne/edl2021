@@ -34,8 +34,7 @@ You only need to do this setup once.
 
 1. Open your portfolio repository in RStudio, and choose Install Packages from the Tools menu.
 2. In the pop-up window that appears, enter `tidyverse`, `remotes`, and `usethis` into the Packages field and click the Install button. We will use the tidyverse and usethis packages extensively for all of our work in this course, and you need the remotes package to install the Spotify API.
-3. After R is finished installing these packages, type `remotes::install_github('charlie86/spotifyr')` into the R console (bottom left pane) and press Enter.
-4. Depending on the exact details of your machine and how much you have used R before, you may be prompted with questions about installing other packages. You should be able just to press Enter: the default choices are always reasonable.
+3. Depending on the exact details of your machine and how much you have used R before, you may be prompted with questions about installing other packages. You should be able just to press Enter: the default choices are always reasonable.
 
 ### 3. Add Your Spotify API Credentials to R
 
